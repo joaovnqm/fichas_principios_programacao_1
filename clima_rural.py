@@ -1,4 +1,4 @@
-import requests, os, time
+import requests, os
 decision = True
 
 input("* * * * * * * * * * * * - Bem-vindo ao: Clima Rural - * * * * * * * * * * * *" \
