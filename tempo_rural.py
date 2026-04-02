@@ -1,6 +1,6 @@
 import requests, os
 
-input("* * * * * * * * * * * * - Bem-vindo ao: Clima Rural - * * * * * * * * * * * *" \
+input("* * * * * * * * * * * * - Bem-vindo ao: Tempo Rural - * * * * * * * * * * * *" \
     "\nNesse sistema, você ficará por dentro de como está o tempo na região do " \
     "CEAGRI-2.\nTambém será mostrada a previsão do tempo para o restante do dia." \
     "\nPressione Enter para prosseguir com a sua solicitação.")
@@ -18,7 +18,7 @@ while True:
         break
 
     os.system("cls")
-    print("* * * * * * * * * * * * - Bem-vindo ao: Clima Rural - * * * * * * * * * * * *")
+    print("* * * * * * * * * * * * - Bem-vindo ao: Tempo Rural - * * * * * * * * * * * *")
     print(f"A hora atual é: {data["current"]["time"][11::]}"
         "\nAs informações atuais são:"
         f"\nA temperatura atual é: {data["current"]["temperature_2m"]}Cº"
@@ -63,5 +63,6 @@ while True:
         continue
     
     else:
-        print("Obrigado por checar a previsão climática comigo, tenha uma boa ida à universidade!")
+        print("Obrigado por checar a previsão climática com o Tempo Rural, "
+              "\ntenha uma boa ida à universidade!")
         break
