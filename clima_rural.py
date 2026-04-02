@@ -1,5 +1,4 @@
 import requests, os
-decision = True
 
 input("* * * * * * * * * * * * - Bem-vindo ao: Clima Rural - * * * * * * * * * * * *" \
     "\nNesse sistema, você ficará por dentro de como está o tempo na região do " \
